@@ -6,6 +6,8 @@
 <!-- removals -->
     <remove-project name="AOKP/build" />
     <remove-project name="AOKP/device_samsung_tuna" />
+    <remove-project name="AOKP/device_lge_mako" />
+    <remove-project name="AOKP/device_asus_grouper" />
     <remove-project name="AOKP/vendor_aokp" />
     <remove-project name="AOKP/system_core" />
 
@@ -14,6 +16,8 @@
         <copyfile src="core/root.mk" dest="Makefile" />
     </project>
     <project path="device/samsung/tuna" name="device_samsung_tuna" remote="kecinzer" revision="jb-mr1" />
+    <project path="device/lge/mako" name="device_lge_mako" remote="kecinzer" revision="jb-mr1" />
+    <project path="device/asus/grouper" name="device_asus_grouper" remote="kecinzer" revision="jb-mr1" />
     <project path="vendor/aokp" name="vendor_aokpk" remote="kecinzer" revision="jb-mr1" />
     <project path="system/core" name="system_core" remote="kecinzer" revision="jb-mr1" />
     <project path="packages/apps/XposedInstaller" name="XposedInstaller" remote="kecinzer" revision="master" />
