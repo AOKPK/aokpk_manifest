@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="kecinzer" fetch="https://github.com/kecinzer/" />
-    <remote name="cmrev" fetch="https://github.com/" review="review.cyanogenmod.org" />
 
 <!-- removals -->
     <remove-project name="AOKP/build" />
@@ -25,7 +24,7 @@
     <project path="kernel/lge/mako" name="francoKernel_tuna" remote="kecinzer" revision="nightlies" />
     <project path="kernel/asus/grouper" name="francoKernel_grouper" remote="kecinzer" revision="android-tegra3-grouper-3.1-jb-mr1" />
 
-    <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="cmrev" revision="cm-10.1" />
+    <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="cm" revision="cm-10.1" />
 
     <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="linux,arm" revision="master" />
     <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="linux,arm" revision="master" />
