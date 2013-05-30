@@ -58,7 +58,7 @@
     <project path="external/openssl" name="UnicornButter/external_openssl" remote="pub" revision="jb-mr1" />
     <project path="external/oprofile" name="UnicornButter/external_oprofile" remote="pub" revision="jb-mr1" />
     <project path="external/ping" name="UnicornButter/external_ping" remote="pub" revision="jb-mr1" />
-    <project path="external/skia" name="UnicornButter/external_skia" remote="pub" revision="jb-mr1" />
+    <project path="external/skia" name="external_skia" remote="kecinzer" revision="jb-mr1" />
     <project path="external/stlport" name="UnicornButter/external_stlport" remote="pub" revision="jb-mr1" />
     <project path="external/v8" name="UnicornButter/external_v8" remote="pub" revision="jb-mr1" />
     <project path="external/webkit" name="UnicornButter/external_webkit" remote="pub" revision="jb-mr1" />
