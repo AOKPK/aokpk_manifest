@@ -21,7 +21,7 @@
     <project path="system/core" name="system_core" remote="kecinzer" revision="jb-mr1" />
     <project path="packages/apps/XposedInstaller" name="XposedInstaller" remote="kecinzer" revision="master" />
     <project path="kernel/samsung/tuna" name="francoKernel_tuna" remote="kecinzer" revision="fk_4.2" />
-    <project path="kernel/lge/mako" name="francoKernel_tuna" remote="kecinzer" revision="nightlies" />
+    <project path="kernel/lge/mako" name="francoKernel_mako" remote="kecinzer" revision="test" />
     <project path="kernel/asus/grouper" name="francoKernel_grouper" remote="kecinzer" revision="android-tegra3-grouper-3.1-jb-mr1" />
 
     <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="cm" revision="cm-10.1" />
