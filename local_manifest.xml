@@ -40,6 +40,7 @@
     <remove-project name="platform/system/security" />
     <remove-project name="AOKP/vendor_aokp" />
     <remove-project name="AOKP/system_core" />
+    <!--<remove-project name="AOKP/packages_apps_Browser" />-->
 
 <!-- add PUB & AOKPK features -->
     <project path="build" name="build" remote="kecinzer" revision="pub" >
@@ -61,7 +62,9 @@
     <project path="external/skia" name="external_skia" remote="kecinzer" revision="jb-mr1" />
     <project path="external/stlport" name="UnicornButter/external_stlport" remote="pub" revision="jb-mr1" />
     <project path="external/v8" name="UnicornButter/external_v8" remote="pub" revision="jb-mr1" />
-    <project path="external/webkit" name="UnicornButter/external_webkit" remote="pub" revision="jb-mr1" />
+    <!--<project path="packages/apps/Browser" name="ParanoidAndroid/android_packages_apps_Browser" remote="pub" revision="jellybean" />-->
+    <!--<project path="external/webkit" name="UnicornButter/external_webkit" remote="pub" revision="jb-mr1" />-->
+    <project path="external/webkit" name="AOKPUB/android_external_webkit" remote="pub" revision="cm-10.1-linaro" />
     <project path="external/wpa_supplicant_8" name="UnicornButter/external_wpa_supplicant_8" remote="pub" revision="jb-mr1" />
     <project path="frameworks/compile/mclinker" name="UnicornButter/frameworks_compile_mclinker" remote="pub" revision="jb-mr1" />
     <project path="frameworks/ex" name="UnicornButter/frameworks_ex" remote="pub" revision="jb-mr1" />
