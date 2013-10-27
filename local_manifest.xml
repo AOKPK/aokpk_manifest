@@ -4,8 +4,7 @@
   <remote name="kecinzer" fetch="https://github.com/kecinzer/" />
   <remote name="aokpk" fetch="https://github.com/AOKPK/" />
   <remote name="sm" fetch="https://github.com/SaberMod/" />
-  <remote name="djl" fetch="https://github.com/DJL10-2/" />
-           
+
   <!-- Remove AOKP projects for BCF alternatives -->
   <remove-project name="CyanogenMod/android_kernel_google_msm" />
   <remove-project name="kernel/omap" />
@@ -18,25 +17,23 @@
   <!-- linaro try -->
   <remove-project name="CyanogenMod/android_bootable_recovery" />
   <remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" />
-  <remove-project name="AOKP/hardware_qcom_display" />
 
   <!-- Core -->
   <project path="vendor/aokp" name="vendor_aokpk" remote="aokpk" revision="jb-mr2" />
 
-  <project path="device/lge/mako" name="device_lge_mako" remote="aokpk" revision="sm-4.3-faux-prima" />
+  <project path="device/lge/mako" name="device_lge_mako" remote="aokpk" revision="sm-4.3-prima" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="aokpk" revision="sm-4.3" />
   <project path="device/asus/grouper" name="device_asus_grouper" remote="aokpk" revision="jb-mr2" />
-  <project path="device/asus/flo" name="device_asus_flo" remote="aokpk" revision="sm-4.3" />
+  <project path="device/asus/flo" name="device_asus_flo" remote="aokpk" revision="sm-4.3-prima" />
 
   <project path="bootable/recovery" name="bootable_recovery" remote="aokpk" revision="sm-4.3" />
   <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="aokpk" revision="sm-4.3" />
-  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="aokpk" revision="jb-mr2" />
   
   <!-- Kernels-->
-  <project path="kernel/lge/mako" name="fauxKernel_mako" remote="kecinzer" revision="sm-4.3-Prima" />
+  <project path="kernel/lge/mako" name="francoKernel_mako" remote="kecinzer" revision="sm-4.3-Pro" />
   <project path="kernel/samsung/tuna" name="francoKernel_tuna" remote="kecinzer" revision="sm-4.3" />
   <project path="kernel/asus/grouper" name="francoKernel_grouper" remote="kecinzer" revision="sm-4.3" />
-  <project path="kernel/asus/flo" name="francoKernel_flo" remote="kecinzer" revision="sm-4.3" />
+  <project path="kernel/asus/flo" name="francoKernel_flo" remote="kecinzer" revision="sm-4.3-Pro" />
 
   <!-- Other stuff -->
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="cm" revision="cm-10.2" />
